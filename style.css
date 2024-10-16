@@ -162,6 +162,7 @@ section {
 .about-section {
     background-color: #48cae4; /* Light blue background */
     color: black; /* Text color */
+    font-size: 1.3em;
 }
 
 .projects-section {
