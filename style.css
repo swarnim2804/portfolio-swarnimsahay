@@ -42,7 +42,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 12px;
     background-color: rgba(79, 164, 244, 0.8);
     z-index: 999;
 }
@@ -163,6 +163,7 @@ section {
     background-color: #48cae4; /* Light blue background */
     color: black; /* Text color */
     font-size: 1.3em;
+
 }
 
 .projects-section {
@@ -386,5 +387,67 @@ h1 {
         0 0 40px rgb(13, 49, 61); /* Largest blue glow */
 }
 
+.download-cv {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f9fafa; /* Soft white background */
+    color: #FF4D6D; /* Vibrant red text */
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    border: 2px solid #FF4D6D; /* Red border for emphasis */
+}
 
+.download-cv:hover {
+    background-color: #f4c4e4; /* Light pink background on hover */
+    color: #fff; /* White text on hover for contrast */
+}
+.project-glimpse {
+    background-color: #f4f4f4; /* Light gray background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-glimpse:hover {
+    transform: scale(1.03); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.glimpse-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.glimpse-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.glimpse-description {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.glimpse-link {
+    color: #FF4D6D;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.glimpse-link:hover {
+    color: #d93656;
+}
 
