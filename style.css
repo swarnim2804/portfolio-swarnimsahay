@@ -42,7 +42,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 12px;
+    padding: 10px;
     background-color: rgba(79, 164, 244, 0.8);
     z-index: 999;
 }
